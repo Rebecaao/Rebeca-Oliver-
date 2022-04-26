@@ -80,7 +80,7 @@ $conex = conexaoMySql();
             </div>
 
             <div class="conteudo-sessao">
-            <div id="consultaDeDados">
+                <div id="consultaDeDados">
                 <table id="tblConsulta" >
                     <tr>
                         <td id="tblTitulo" colspan="6">
@@ -96,7 +96,7 @@ $conex = conexaoMySql();
                     </tr>
 
                     <?php
-                // Import do arquivo da controller para solicitar a listagem dos dados
+                    // Import do arquivo da controller para solicitar a listagem dos dados
                     require_once('controller/controllerContatos.php');
                     // Chama a função que vai retornar os dados de contatos
                     $listContato = listarContato();
@@ -120,7 +120,7 @@ $conex = conexaoMySql();
                     }
                 ?>
                 </table>
-    </div>
+         </div>
             </div>
         </div>
 

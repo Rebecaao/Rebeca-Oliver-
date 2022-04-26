@@ -8,7 +8,7 @@ function selectAllContato(){
     $conexao = conexaoMysql();
 
     //script para listar todos os dados do BD
-    $sql = "select * from tblcontatos order by id_contato desc";
+    $sql = "select * from tblcontatos order by id_contatos desc";
     //Executa o script sql no BD e guarda o retorno dos dados, se houver
     $result = mysqli_query($conexao, $sql);
 

@@ -13,8 +13,8 @@ $conex = conexaoMySql();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/dashboard.css">
-    <link rel="stylesheet" href="../css/telaContato.css">
-    <title>CRUD CONTATOS</title>
+    <link rel="stylesheet" href="../css/telaCategoria.css">
+    <title>CRUD CATEGORIA</title>
 </head>
 <body>
     <div class="dashboard">
@@ -78,6 +78,35 @@ $conex = conexaoMySql();
             <div class="sessao">
                 <h2 class="titulo-sessao">TITULO DA SESAÃO</h2>
             </div>
+
+            <div id="cadastro"> 
+           <div id="cadastroTitulo"> 
+               <h1> Cadastro de Contatos </h1>
+               
+           </div>
+           <div id="cadastroInformacoes">
+                <form  action=">" name="frmCadastro" method="post"> 
+                <!-- /*sem o enctype não é possivel enviar arquivos do form em html para o servidor  */ -->
+                   <div class="campos">
+                       <div class="cadastroInformacoesPessoais">
+                           <label> Nome: </label>
+                       </div>
+                       <div class="cadastroEntradaDeDados">
+                           <input type="text" name="txtNome" value="<?=isset($nome)?$nome:null?>" placeholder="Digite seu Nome" maxlength="100">
+                           <!-- isset($nome)?$nome:null - if ternario  -->
+                       </div>
+                   </div>
+                                    
+                   
+                   
+                   <div class="enviar">
+                       <div class="enviar">
+                           <input type="submit" name="btnEnviar" value="Salvar">
+                       </div>
+                   </div>
+               </form>
+           </div>
+       </div>
 
             <div class="conteudo-sessao">
             <div id="consultaDeDados">
