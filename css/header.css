@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+
+}
+
+.containner-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.menu-hamburguer{
+    width: 150px;
+    background-color: aqua;
+    height: 30px;
+}
+.icons-header{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 170px;
+    margin-right: 10px;
+}
+
+.logo{
+    height: 60px;
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    height: 30px;
+    background-color: rgb(9, 63, 9) ;
+    justify-content: center;
+}
+
+.containner-menu{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.containner-menu a{
+    text-decoration: none;
+    color: rgb(225, 203, 203);
+}

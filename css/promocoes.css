@@ -1,0 +1,51 @@
+.containner-promocoes{
+    height: 500px;
+    margin-top: 50px;
+    
+}
+
+.promocoes{
+    text-align: center;
+}
+#promocoes{
+    display: inline-block;
+    height: 30px;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+.containner-cards-promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    
+}
+
+.containner-cads{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    width: 1200px;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #515151;
+
+}
+.img-promocoes{
+    height: 300px;
+    width: 270px;
+}
+
+.img-produto{
+    height: 300px;
+    width: 260px;
+    justify-content: center;
+}
